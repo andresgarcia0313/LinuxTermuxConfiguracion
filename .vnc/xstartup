@@ -1,0 +1,14 @@
+#!/data/data/com.termux/files/usr/bin/sh
+## This file is executed during VNC server
+## startup.
+
+# Launch terminal emulator Aterm.
+# Requires package 'aterm'.
+aterm -geometry 70x10+20+20 -ls &
+
+# Launch Tab Window Manager.
+# Requires package 'xorg-twm'.
+# twm &
+# Start Openbox.
+openbox-session &
+tcpsvd -vE 0.0.0.0 1024 ftpd -w / &

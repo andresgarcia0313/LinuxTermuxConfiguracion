@@ -1,0 +1,114 @@
+InitConnectionLimits: MaxClients = 2048
+
+Xvnc TigerVNC 1.9.0 - built Oct 31 2018 19:07:52
+Copyright (C) 1999-2018 TigerVNC Team and many others (see README.rst)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12003000, The X.Org Foundation
+
+
+Tue Nov 13 12:11:50 2018
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5903
+ vncext:      created VNC server for screen 0
+Sync Extension 3.1
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/misc/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/TTF/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/OTF/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/Type1/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/100dpi/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/75dpi/, removing from list!
+Popen: `"/data/data/com.termux/files/usr/bin/xkbcomp" -w 1 "-R/data/data/com.termux/files/usr/share/X11/xkb" -xkm "-" -em1 "The XKEYBOARD keymap compiler (xkbcomp) reports:" -emp "> " -eml "Errors from xkbcomp are not fatal to the X server" "/data/data/com.termux/files/usr/tmp/server-3.xkm"', fp = 0x7f7a855f68
+Pclose: fp = 0x7f7a855f68
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported high keycode 372 for name <I372> ignored
+>                   X11 cannot support keycodes above 255.
+>                   This warning only shows for the first high keycode.
+Errors from xkbcomp are not fatal to the X server
+Loaded XKB keymap /data/data/com.termux/files/usr/tmp/server-3.xkm, defined=0x7f
+client(0): Reserved pid(19933).
+client(0): Reserved cmdname(/data/data/com.termux/files/usr/bin/Xvnc) and cmdargs(:3 -geometry 910x512 -auth /data/data/com.termux/files/home/.Xauthority -desktop localhost:3 () -pn -rfbauth /data/data/com.termux/files/home/.vnc/passwd -rfbport 5903 -rfbwait 30000).
+client(200000): Reserved pid(19948).
+client(200000): Reserved cmdname(/data/data/com.termux/files/usr/bin/openbox) and cmdargs(--startup /data/data/com.termux/files/usr/libexec/openbox-autostart OPENBOX).
+AllocNewConnection: client index = 1, socket fd = 9
+client(400000): Reserved pid(19955).
+client(400000): Reserved cmdname(xsetroot) and cmdargs(-solid gray).
+AllocNewConnection: client index = 2, socket fd = 10
+client(400000): Released pid(19955).
+client(400000): Released cmdline(xsetroot) and cmdargs(-solid gray).
+ERROR: openbox-xdg-autostart requires PyXDG to be installed
+
+
+client(400000): Reserved pid(19956).
+client(400000): Reserved cmdname(/data/data/com.termux/files/usr/bin/python2) and cmdargs(/data/data/com.termux/files/usr/bin/pypanel).
+AllocNewConnection: client index = 2, socket fd = 10
+client(600000): Reserved pid(19956).
+client(600000): Reserved cmdname(/data/data/com.termux/files/usr/bin/python2) and cmdargs(/data/data/com.termux/files/usr/bin/pypanel).
+AllocNewConnection: client index = 3, socket fd = 11
+Not using O_TMPFILE
+
+Tue Nov 13 12:12:16 2018
+ Connections: accepted: 127.0.0.1::36125
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Tue Nov 13 12:12:20 2018
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+client(800000): Reserved pid(20117).
+client(800000): Reserved cmdname(geany) and cmdargs(NULL).
+AllocNewConnection: client index = 4, socket fd = 13
+client(a00000): Reserved pid(21079).
+client(a00000): Reserved cmdname(aterm) and cmdargs(NULL).
+AllocNewConnection: client index = 5, socket fd = 15
+aterm: can't load font "7x14"
+
+Tue Nov 13 12:25:56 2018
+ Connections: closed: 127.0.0.1::36125 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 784
+ EncodeManager:   CopyRect:
+ EncodeManager:     Copies: 3 rects, 47.325 kpixels
+ EncodeManager:             48 B (1:3944.5 ratio)
+ EncodeManager:   RRE:
+ EncodeManager:     Solid: 44 rects, 1.00879 Mpixels
+ EncodeManager:            880 B (1:4586.02 ratio)
+ EncodeManager:   ZRLE:
+ EncodeManager:     Bitmap RLE: 358 rects, 490.203 kpixels
+ EncodeManager:                 8.90918 KiB (1:215.402 ratio)
+ EncodeManager:     Indexed RLE: 366 rects, 613.046 kpixels
+ EncodeManager:                  14.7207 KiB (1:162.968 ratio)
+ EncodeManager:     Full Colour: 140 rects, 677.709 kpixels
+ EncodeManager:                  150.68 KiB (1:17.58 ratio)
+ EncodeManager:   Total: 911 rects, 2.83708 Mpixels
+ EncodeManager:          175.216 KiB (1:63.3105 ratio)
+ ComparingUpdateTracker: 15.3542 Mpixels in / 2.38033 Mpixels out
+ ComparingUpdateTracker: (1:6.45046 ratio)
+XIO:  fatal IO error 11 (Try again) on X server ":3"
+      after 13191 requests (13191 known processed) with 0 events remaining.
+client(200000): Released pid(19948).
+client(200000): Released cmdline(/data/data/com.termux/files/usr/bin/openbox) and cmdargs(--startup /data/data/com.termux/files/usr/libexec/openbox-autostart OPENBOX).
+client(400000): Released pid(19956).
+client(400000): Released cmdline(/data/data/com.termux/files/usr/bin/python2) and cmdargs(/data/data/com.termux/files/usr/bin/pypanel).
+XIO:  fatal IO error 11 (Try again) on X server ":3"
+      after 255 requests (255 known processed) with 0 events remaining.
+client(600000): Released pid(19956).
+client(600000): Released cmdline(/data/data/com.termux/files/usr/bin/python2) and cmdargs(/data/data/com.termux/files/usr/bin/pypanel).
+client(800000): Released pid(20117).
+client(800000): Released cmdline(geany) and cmdargs(NULL).
+XIO:  fatal IO error 11 (Try again) on X server ":3"
+      after 1569 requests (1569 known processed) with 4 events remaining.
+client(a00000): Released pid(21079).
+client(a00000): Released cmdline(aterm) and cmdargs(NULL).
+Gdk-Message: 12:53:15.318: geany: Fatal IO error 11 (Try again) on X server :3.
+
+
+Tue Nov 13 12:53:15 2018
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:nan ratio)
+(dix) removing device 2
+(dix) removing device 3
+(dix) removing device 5
+(dix) removing device 4
+(dix) removing device 7
+(dix) removing device 6
+client(0): Released pid(19933).
+client(0): Released cmdline(/data/data/com.termux/files/usr/bin/Xvnc) and cmdargs(:3 -geometry 910x512 -auth /data/data/com.termux/files/home/.Xauthority -desktop localhost:3 () -pn -rfbauth /data/data/com.termux/files/home/.vnc/passwd -rfbport 5903 -rfbwait 30000).

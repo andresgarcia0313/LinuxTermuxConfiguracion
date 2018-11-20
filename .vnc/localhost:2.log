@@ -1,0 +1,98 @@
+InitConnectionLimits: MaxClients = 2048
+
+Xvnc TigerVNC 1.9.0 - built Oct 31 2018 19:07:52
+Copyright (C) 1999-2018 TigerVNC Team and many others (see README.rst)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12003000, The X.Org Foundation
+
+
+Tue Nov 20 13:31:39 2018
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5902
+ vncext:      created VNC server for screen 0
+Sync Extension 3.1
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/misc/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/TTF/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/OTF/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/Type1/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/100dpi/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/75dpi/, removing from list!
+Popen: `"/data/data/com.termux/files/usr/bin/xkbcomp" -w 1 "-R/data/data/com.termux/files/usr/share/X11/xkb" -xkm "-" -em1 "The XKEYBOARD keymap compiler (xkbcomp) reports:" -emp "> " -eml "Errors from xkbcomp are not fatal to the X server" "/data/data/com.termux/files/usr/tmp/server-2.xkm"', fp = 0x7fb069bf68
+Pclose: fp = 0x7fb069bf68
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Unsupported high keycode 372 for name <I372> ignored
+>                   X11 cannot support keycodes above 255.
+>                   This warning only shows for the first high keycode.
+Errors from xkbcomp are not fatal to the X server
+Loaded XKB keymap /data/data/com.termux/files/usr/tmp/server-2.xkm, defined=0x7f
+client(0): Reserved pid(5455).
+client(0): Reserved cmdname(/data/data/com.termux/files/usr/bin/Xvnc) and cmdargs(:2 -auth /data/data/com.termux/files/home/.Xauthority -desktop localhost:2 () -geometry 1366x700 -pn -rfbauth /data/data/com.termux/files/home/.vnc/passwd -rfbport 5902 -rfbwait 30000).
+client(200000): Reserved pid(5471).
+client(200000): Reserved cmdname(aterm) and cmdargs(-geometry 70x10+20+20 -ls).
+AllocNewConnection: client index = 1, socket fd = 9
+aterm: can't load font "7x14"
+client(400000): Reserved pid(5472).
+client(400000): Reserved cmdname(/data/data/com.termux/files/usr/bin/openbox) and cmdargs(--startup /data/data/com.termux/files/usr/libexec/openbox-autostart OPENBOX).
+AllocNewConnection: client index = 2, socket fd = 10
+client(600000): Reserved pid(5483).
+client(600000): Reserved cmdname(xsetroot) and cmdargs(-solid gray).
+AllocNewConnection: client index = 3, socket fd = 11
+client(600000): Released pid(5483).
+client(600000): Released cmdline(xsetroot) and cmdargs(-solid gray).
+ERROR: openbox-xdg-autostart requires PyXDG to be installed
+
+
+client(600000): Reserved pid(5484).
+client(600000): Reserved cmdname(/data/data/com.termux/files/usr/bin/python2) and cmdargs(/data/data/com.termux/files/usr/bin/pypanel).
+AllocNewConnection: client index = 3, socket fd = 11
+client(800000): Reserved pid(5484).
+client(800000): Reserved cmdname(/data/data/com.termux/files/usr/bin/python2) and cmdargs(/data/data/com.termux/files/usr/bin/pypanel).
+AllocNewConnection: client index = 4, socket fd = 12
+Not using O_TMPFILE
+
+Tue Nov 20 13:32:23 2018
+ Connections: accepted: 192.168.0.8::1690
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Tue Nov 20 13:32:29 2018
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 6 (8bpp) rgb222
+client(200000): Released pid(5471).
+client(200000): Released cmdline(aterm) and cmdargs(-geometry 70x10+20+20 -ls).
+client(200000): Reserved pid(5595).
+client(200000): Reserved cmdname(geany) and cmdargs(NULL).
+AllocNewConnection: client index = 1, socket fd = 9
+
+(geany:5595): Gtk-WARNING **: 13:32:42.185: Could not load a pixbuf from /org/gtk/libgtk/theme/Adwaita/assets/check-symbolic.svg.
+This may indicate that pixbuf loaders or the mime database could not be found.
+client(a00000): Reserved pid(5780).
+client(a00000): Reserved cmdname(aterm) and cmdargs(NULL).
+AllocNewConnection: client index = 5, socket fd = 15
+aterm: can't load font "7x14"
+
+Tue Nov 20 13:34:45 2018
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+client(a00000): Released pid(5780).
+client(a00000): Released cmdline(aterm) and cmdargs(NULL).
+client(a00000): Reserved pid(6109).
+client(a00000): Reserved cmdname(aterm) and cmdargs(NULL).
+AllocNewConnection: client index = 5, socket fd = 15
+aterm: can't load font "7x14"
+client(c00000): Reserved pid(6393).
+client(c00000): Reserved cmdname(aterm) and cmdargs(NULL).
+AllocNewConnection: client index = 6, socket fd = 17
+aterm: can't load font "7x14"
+client(e00000): Reserved pid(6468).
+client(e00000): Reserved cmdname(aterm) and cmdargs(NULL).
+AllocNewConnection: client index = 7, socket fd = 18
+aterm: can't load font "7x14"
+client(e00000): Released pid(6468).
+client(e00000): Released cmdline(aterm) and cmdargs(NULL).
+client(e00000): Reserved pid(6479).
+client(e00000): Reserved cmdname(aterm) and cmdargs(NULL).
+AllocNewConnection: client index = 7, socket fd = 18
+aterm: can't load font "7x14"
+
+Tue Nov 20 13:43:28 2018
+ Input:       Added unknown keysym 0xac to keycode 253
