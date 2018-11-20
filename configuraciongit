@@ -1,0 +1,7 @@
+  500  git config --global user.name "Andres Eduardo Garcia Marquez"
+  501  git config --global user.email "andresgarcia0313@gmail.com"
+  502  git config --global credencial.helper store
+  507  history | grep git config
+  508  history | grep "git config"
+  509  history | grep "git config" >> configuracion inicial
+  510  history | grep "git config" >> configuraciongit
